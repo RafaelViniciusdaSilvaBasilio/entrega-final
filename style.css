@@ -1,0 +1,140 @@
+
+:root{
+    --cor-primaria: #37FA9D;
+    --cor-segundaria:#0AF5D5;
+    --cor-titulo:#F9313F;
+}
+
+body{
+    background: var(--cor-segundaria);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.inicio{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+
+
+.inicio img{
+    max-width:70px;
+    max-height:70px;
+    width: auto;
+    height: auto;
+}
+
+.container-input{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.container-input .input{
+    width: 400px;
+    height: 330px;
+}
+
+#input-texto{
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color: var(--cor-titulo);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+    
+
+#output{
+    display: flex;
+    flex-direction: column;
+    border: 3px solid var(--cor-titulo);
+    border-radius: 20px;
+    width: 350px;
+    height: 400px;
+    margin-right: 3%;
+}
+
+#output h2{
+    text-align: center;
+    font-size: 25px;
+    color: var(--cor-titulo);
+}
+
+#output span{
+    font-size: 16px;
+    text-align: center;
+}
+
+#output img{
+    max-width:150px;
+    max-height:150px;
+    width: auto;
+    height: auto;
+    margin-top: 4%;
+}
+
+.container-bnt button{
+    border: 2px solid var(--cor-titulo);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #7c0160;
+    width: 150px;
+    height: 50px;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.btn-copiar{
+    border: 2px solid var(--cor-titulo);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #7c0160;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+}
+
+.container-bnt button:hover{
+   border: 2px solid var(--cor-segundaria);
+   transition: 0.5s all;
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    margin-top: 20px ;
+    background:var(--cor-primaria) ;
+    color: var(--cor-titulo);
+}
+
+.rodape h3{
+    font-size: 16px;
+}
+
+.icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color: var(--cor-titulo);
+}
+
+.icons ion-icon:hover{
+    color: var(--cor-segundaria);
+}
